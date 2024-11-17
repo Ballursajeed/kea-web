@@ -20,7 +20,7 @@ const Navbar = () => {
    <>
     <div className="navContainer">
        <Link to={'/hello'}>
-        <img src="./public/KEA-Logo-kan.png" alt="KEA" />
+        <img src="http://cetonline.karnataka.gov.in/kea/assets/images/KEA-Logo-kan.png" alt="KEA" />
        </Link>
        <div className="tags">
         <ul className='ulTags'>
@@ -77,7 +77,7 @@ const Navbar = () => {
   <option value="kannada">ಕನ್ನಡ  Kannada </option>
 </select>
 <Link >
-        <img src="./public/Karnataka-Logo.png" alt="KEA"onClick={disappearToggleAdmission}/>
+        <img src="http://cetonline.karnataka.gov.in/kea/assets/images/Karnataka-Logo.png" alt="KEA"onClick={disappearToggleAdmission}/>
        </Link>
         </ul>
         
