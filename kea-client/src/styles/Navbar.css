@@ -1,0 +1,114 @@
+:root {
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+.navContainer{
+    display: flex;
+}
+
+.navContainer > a {
+    text-decoration: none;
+}
+
+.ulTags{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    list-style-type: none;
+}
+
+.ulTags:hover {
+  color: purple;
+}
+
+.ulTags > li > a {
+    text-decoration: none;
+}
+
+.ulTags > li > a, .admissionsButton {
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: black; /* Link color */
+  font-size: 21px;
+  font-family: var(--font-family-sans-serif);
+}
+
+.ulTags > li > a:hover, .admissionsButton:hover {
+  color: purple;
+}
+.admissionSpan{
+  margin-left: 10px;
+  font-size: 27px;
+  cursor: pointer;
+}
+.prevYearSpan
+{
+  margin-left: 10px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.prevYearLi{
+  width: 189px;
+}
+
+.admLi{
+  width: 160px;
+}
+
+.clgPortal{
+  width: 110px;
+}
+
+.reqClass{
+  width: 179px;
+}
+.exmPortal{
+  width: 155px;
+}
+
+.admissionsSection {
+  margin-top: 20px;
+  margin-left: 360px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  max-height: 200px; /* Limit height */
+  overflow-y: auto; /* Enable scrolling */
+  width: 400px;
+}
+
+.admissionsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admissionsList > li {
+  margin: 10px 0;
+}
+
+.admissionsList > li > a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.admissionsList > li > a:hover {
+  color: #005bb5;
+  text-decoration: underline;
+}
+
+#language-selector {
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+}
